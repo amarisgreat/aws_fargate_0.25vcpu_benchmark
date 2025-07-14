@@ -1,0 +1,125 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Deploy Benchmark Flask app to ECS Fargate with ALB (ov2 version)
+
+Parameters:
+  VpcId:
+    Type: AWS::EC2::VPC::Id
+    Description: Use default VPC
+  SubnetIds:
+    Type: List<AWS::EC2::Subnet::Id>
+    Description: Use subnets in us-east-1a and us-east-1b
+
+Resources:
+
+  FargateBenchmarkOv2SecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Allow HTTP access to benchmark app (ov2)
+      VpcId: !Ref VpcId
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 5000
+          ToPort: 5000
+          CidrIp: 0.0.0.0/0
+
+  FargateBenchmarkOv2LogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: /ecs/fargate-benchmark-ov2
+      RetentionInDays: 7
+
+  FargateBenchmarkOv2ALB:
+    Type: AWS::ElasticLoadBalancingV2::LoadBalancer
+    Properties:
+      Name: fargate-benchmark-alb-ov2
+      Scheme: internet-facing
+      Subnets: !Ref SubnetIds
+      SecurityGroups:
+        - !Ref FargateBenchmarkOv2SecurityGroup
+      Type: application
+
+  FargateBenchmarkOv2TargetGroup:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+    Properties:
+      Name: fargate-benchmark-tg-ov2
+      Port: 5000
+      Protocol: HTTP
+      VpcId: !Ref VpcId
+      TargetType: ip
+      HealthCheckPath: /health
+      Matcher:
+        HttpCode: 200
+      HealthCheckIntervalSeconds: 30
+      HealthCheckTimeoutSeconds: 10
+      HealthyThresholdCount: 2
+      UnhealthyThresholdCount: 2
+
+  FargateBenchmarkOv2Listener:
+    Type: AWS::ElasticLoadBalancingV2::Listener
+    Properties:
+      LoadBalancerArn: !Ref FargateBenchmarkOv2ALB
+      Port: 5000
+      Protocol: HTTP
+      DefaultActions:
+        - Type: forward
+          TargetGroupArn: !Ref FargateBenchmarkOv2TargetGroup
+
+  FargateBenchmarkOv2Cluster:
+    Type: AWS::ECS::Cluster
+    Properties:
+      ClusterName: fargate-benchmark-cluster-ov2
+
+  FargateBenchmarkOv2TaskDefinition:
+    Type: AWS::ECS::TaskDefinition
+    Properties:
+      Family: fargate-benchmark-task-ov2
+      Cpu: '256'
+      Memory: '1024'
+      NetworkMode: awsvpc
+      RequiresCompatibilities:
+        - FARGATE
+      ExecutionRoleArn: arn:aws:iam::634914382615:role/flask-fargate-execution
+      ContainerDefinitions:
+        - Name: benchmark-container-ov2
+          Image: 634914382615.dkr.ecr.us-east-1.amazonaws.com/fargate-benchmark:latest
+          PortMappings:
+            - ContainerPort: 5000
+              Protocol: tcp
+          Essential: true
+          LogConfiguration:
+            LogDriver: awslogs
+            Options:
+              awslogs-group: /ecs/fargate-benchmark-ov2
+              awslogs-region: us-east-1
+              awslogs-stream-prefix: ecs
+
+  FargateBenchmarkOv2Service:
+    Type: AWS::ECS::Service
+    DependsOn: FargateBenchmarkOv2Listener
+    Properties:
+      ServiceName: fargate-benchmark-service-ov2
+      Cluster: !Ref FargateBenchmarkOv2Cluster
+      TaskDefinition: !Ref FargateBenchmarkOv2TaskDefinition
+      DesiredCount: 1
+      LaunchType: FARGATE
+      NetworkConfiguration:
+        AwsvpcConfiguration:
+          AssignPublicIp: ENABLED
+          SecurityGroups:
+            - !Ref FargateBenchmarkOv2SecurityGroup
+          Subnets: !Ref SubnetIds
+      LoadBalancers:
+        - ContainerName: benchmark-container-ov2
+          ContainerPort: 5000
+          TargetGroupArn: !Ref FargateBenchmarkOv2TargetGroup
+      DeploymentConfiguration:
+        MaximumPercent: 200
+        MinimumHealthyPercent: 100
+        DeploymentCircuitBreaker:
+          Enable: true
+          Rollback: true
+
+Outputs:
+  LoadBalancerDNSOv2:
+    Description: DNS name of the load balancer (ov2)
+    Value: !GetAtt FargateBenchmarkOv2ALB.DNSName

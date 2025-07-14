@@ -1,0 +1,661 @@
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.600 seconds
+Complete requests:      1
+Failed requests:        0
+Total transferred:      259 bytes
+HTML transferred:       61 bytes
+Requests per second:    1.67 [#/sec] (mean)
+Time per request:       599.868 [ms] (mean)
+Time per request:       599.868 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.42 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      303  303   0.0    303     303
+Processing:   297  297   0.0    297     297
+Waiting:      295  295   0.0    295     295
+Total:        600  600   0.0    600     600
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.460 seconds
+Complete requests:      1
+Failed requests:        0
+Total transferred:      259 bytes
+HTML transferred:       61 bytes
+Requests per second:    2.17 [#/sec] (mean)
+Time per request:       460.072 [ms] (mean)
+Time per request:       460.072 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.55 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      228  228   0.0    228     228
+Processing:   233  233   0.0    233     233
+Waiting:      233  233   0.0    233     233
+Total:        460  460   0.0    460     460
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.477 seconds
+Complete requests:      1
+Failed requests:        0
+Total transferred:      259 bytes
+HTML transferred:       61 bytes
+Requests per second:    2.10 [#/sec] (mean)
+Time per request:       476.792 [ms] (mean)
+Time per request:       476.792 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.53 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      229  229   0.0    229     229
+Processing:   248  248   0.0    248     248
+Waiting:      248  248   0.0    248     248
+Total:        477  477   0.0    477     477
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   24.432 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      25900 bytes
+HTML transferred:       6100 bytes
+Requests per second:    4.09 [#/sec] (mean)
+Time per request:       2443.155 [ms] (mean)
+Time per request:       244.315 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.04 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      217  239   9.8    237     266
+Processing:   247 2054 401.6   2146    3309
+Waiting:      232 1207 620.9   1180    2231
+Total:        483 2293 401.9   2388    3552
+
+Percentage of the requests served within a certain time (ms)
+  50%   2388
+  66%   2396
+  75%   2419
+  80%   2424
+  90%   2473
+  95%   2497
+  98%   2599
+  99%   3552
+ 100%   3552 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   24.706 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      25900 bytes
+HTML transferred:       6100 bytes
+Requests per second:    4.05 [#/sec] (mean)
+Time per request:       2470.601 [ms] (mean)
+Time per request:       247.060 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      222  242  10.6    241     282
+Processing:   236 2075 391.5   2179    2479
+Waiting:      235 1555 529.6   1689    2244
+Total:        471 2317 393.1   2422    2708
+
+Percentage of the requests served within a certain time (ms)
+  50%   2422
+  66%   2446
+  75%   2456
+  80%   2460
+  90%   2474
+  95%   2482
+  98%   2517
+  99%   2708
+ 100%   2708 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   29.321 seconds
+Complete requests:      100
+Failed requests:        1
+   (Connect: 0, Receive: 0, Length: 1, Exceptions: 0)
+Total transferred:      25903 bytes
+HTML transferred:       6103 bytes
+Requests per second:    3.41 [#/sec] (mean)
+Time per request:       2932.126 [ms] (mean)
+Time per request:       293.213 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.86 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      220  288 452.6    240    4762
+Processing:   223 2334 1217.2   2160    7247
+Waiting:      223 1809 1148.0   1686    6958
+Total:        444 2622 1303.1   2403    7524
+
+Percentage of the requests served within a certain time (ms)
+  50%   2403
+  66%   2429
+  75%   2437
+  80%   2452
+  90%   2478
+  95%   6981
+  98%   7199
+  99%   7524
+ 100%   7524 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        64 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.515 seconds
+Complete requests:      1
+Failed requests:        0
+Total transferred:      262 bytes
+HTML transferred:       64 bytes
+Requests per second:    1.94 [#/sec] (mean)
+Time per request:       515.234 [ms] (mean)
+Time per request:       515.234 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.50 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      256  256   0.0    256     256
+Processing:   259  259   0.0    259     259
+Waiting:      259  259   0.0    259     259
+Total:        515  515   0.0    515     515
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.494 seconds
+Complete requests:      1
+Failed requests:        0
+Total transferred:      259 bytes
+HTML transferred:       61 bytes
+Requests per second:    2.02 [#/sec] (mean)
+Time per request:       494.202 [ms] (mean)
+Time per request:       494.202 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.51 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      250  250   0.0    250     250
+Processing:   244  244   0.0    244     244
+Waiting:      244  244   0.0    244     244
+Total:        494  494   0.0    494     494
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.479 seconds
+Complete requests:      1
+Failed requests:        0
+Total transferred:      259 bytes
+HTML transferred:       61 bytes
+Requests per second:    2.09 [#/sec] (mean)
+Time per request:       479.229 [ms] (mean)
+Time per request:       479.229 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.53 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      239  239   0.0    239     239
+Processing:   241  241   0.0    241     241
+Waiting:      239  239   0.0    239     239
+Total:        479  479   0.0    479     479
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   24.816 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      25900 bytes
+HTML transferred:       6100 bytes
+Requests per second:    4.03 [#/sec] (mean)
+Time per request:       2481.635 [ms] (mean)
+Time per request:       248.163 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      221  243  10.7    242     274
+Processing:   243 2088 384.7   2185    2380
+Waiting:      236 1657 468.0   1708    2242
+Total:        485 2331 384.1   2428    2616
+
+Percentage of the requests served within a certain time (ms)
+  50%   2428
+  66%   2446
+  75%   2453
+  80%   2466
+  90%   2485
+  95%   2493
+  98%   2499
+  99%   2616
+ 100%   2616 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   25.212 seconds
+Complete requests:      100
+Failed requests:        1
+   (Connect: 0, Receive: 0, Length: 1, Exceptions: 0)
+Total transferred:      25903 bytes
+HTML transferred:       6103 bytes
+Requests per second:    3.97 [#/sec] (mean)
+Time per request:       2521.206 [ms] (mean)
+Time per request:       252.121 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.00 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      221  247  12.6    247     277
+Processing:   235 2118 401.8   2223    2471
+Waiting:      235 1251 622.1   1247    2263
+Total:        459 2365 403.5   2466    2734
+
+Percentage of the requests served within a certain time (ms)
+  50%   2466
+  66%   2484
+  75%   2496
+  80%   2500
+  90%   2518
+  95%   2533
+  98%   2547
+  99%   2734
+ 100%   2734 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   25.078 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      25900 bytes
+HTML transferred:       6100 bytes
+Requests per second:    3.99 [#/sec] (mean)
+Time per request:       2507.819 [ms] (mean)
+Time per request:       250.782 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.01 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      222  246  10.4    245     270
+Processing:   246 2106 390.4   2209    2469
+Waiting:      246 1655 485.7   1724    2240
+Total:        492 2352 389.9   2456    2701
+
+Percentage of the requests served within a certain time (ms)
+  50%   2456
+  66%   2467
+  75%   2473
+  80%   2477
+  90%   2489
+  95%   2494
+  98%   2513
+  99%   2701
+ 100%   2701 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.478 seconds
+Complete requests:      1
+Failed requests:        0
+Total transferred:      259 bytes
+HTML transferred:       61 bytes
+Requests per second:    2.09 [#/sec] (mean)
+Time per request:       478.233 [ms] (mean)
+Time per request:       478.233 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.53 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      229  229   0.0    229     229
+Processing:   248  248   0.0    248     248
+Waiting:      248  248   0.0    248     248
+Total:        477  477   0.0    477     477
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.464 seconds
+Complete requests:      1
+Failed requests:        0
+Total transferred:      259 bytes
+HTML transferred:       61 bytes
+Requests per second:    2.16 [#/sec] (mean)
+Time per request:       463.999 [ms] (mean)
+Time per request:       463.999 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.55 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      230  230   0.0    230     230
+Processing:   234  234   0.0    234     234
+Waiting:      232  232   0.0    232     232
+Total:        464  464   0.0    464     464
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.464 seconds
+Complete requests:      1
+Failed requests:        0
+Total transferred:      259 bytes
+HTML transferred:       61 bytes
+Requests per second:    2.16 [#/sec] (mean)
+Time per request:       463.898 [ms] (mean)
+Time per request:       463.898 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.55 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      230  230   0.0    230     230
+Processing:   234  234   0.0    234     234
+Waiting:      234  234   0.0    234     234
+Total:        464  464   0.0    464     464
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   24.683 seconds
+Complete requests:      100
+Failed requests:        1
+   (Connect: 0, Receive: 0, Length: 1, Exceptions: 0)
+Total transferred:      25903 bytes
+HTML transferred:       6103 bytes
+Requests per second:    4.05 [#/sec] (mean)
+Time per request:       2468.319 [ms] (mean)
+Time per request:       246.832 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      218  241  10.5    241     274
+Processing:   251 2074 378.8   2172    2443
+Waiting:      240 1254 592.5   1231    2210
+Total:        507 2315 377.7   2414    2680
+
+Percentage of the requests served within a certain time (ms)
+  50%   2414
+  66%   2427
+  75%   2440
+  80%   2445
+  90%   2461
+  95%   2470
+  98%   2486
+  99%   2680
+ 100%   2680 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   24.827 seconds
+Complete requests:      100
+Failed requests:        1
+   (Connect: 0, Receive: 0, Length: 1, Exceptions: 0)
+Total transferred:      25903 bytes
+HTML transferred:       6103 bytes
+Requests per second:    4.03 [#/sec] (mean)
+Time per request:       2482.724 [ms] (mean)
+Time per request:       248.272 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      220  243  11.1    243     273
+Processing:   262 2084 375.9   2180    2417
+Waiting:      234 1233 605.0   1226    2213
+Total:        511 2327 372.0   2422    2656
+
+Percentage of the requests served within a certain time (ms)
+  50%   2422
+  66%   2432
+  75%   2445
+  80%   2456
+  90%   2468
+  95%   2478
+  98%   2545
+  99%   2656
+ 100%   2656 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov1-435020948.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   24.956 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      25900 bytes
+HTML transferred:       6100 bytes
+Requests per second:    4.01 [#/sec] (mean)
+Time per request:       2495.559 [ms] (mean)
+Time per request:       249.556 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.01 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      222  244  10.9    244     272
+Processing:   260 2091 385.7   2189    2506
+Waiting:      260 1565 537.1   1704    2236
+Total:        502 2335 384.9   2432    2751
+
+Percentage of the requests served within a certain time (ms)
+  50%   2432
+  66%   2444
+  75%   2453
+  80%   2459
+  90%   2472
+  95%   2481
+  98%   2496
+  99%   2751
+ 100%   2751 (longest request)
