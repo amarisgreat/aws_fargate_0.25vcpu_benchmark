@@ -13,22 +13,22 @@ Document Path:          /fib
 Document Length:        61 bytes
 
 Concurrency Level:      1
-Time taken for tests:   0.467 seconds
+Time taken for tests:   0.474 seconds
 Complete requests:      1
 Failed requests:        0
 Total transferred:      259 bytes
 HTML transferred:       61 bytes
-Requests per second:    2.14 [#/sec] (mean)
-Time per request:       467.216 [ms] (mean)
-Time per request:       467.216 [ms] (mean, across all concurrent requests)
-Transfer rate:          0.54 [Kbytes/sec] received
+Requests per second:    2.11 [#/sec] (mean)
+Time per request:       473.587 [ms] (mean)
+Time per request:       473.587 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.53 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:      230  230   0.0    230     230
-Processing:   236  236   0.0    236     236
-Waiting:      236  236   0.0    236     236
-Total:        466  466   0.0    466     466
+Connect:      232  232   0.0    232     232
+Processing:   242  242   0.0    242     242
+Waiting:      240  240   0.0    240     240
+Total:        474  474   0.0    474     474
 This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
@@ -44,22 +44,22 @@ Document Path:          /fib
 Document Length:        61 bytes
 
 Concurrency Level:      1
-Time taken for tests:   0.489 seconds
+Time taken for tests:   0.516 seconds
 Complete requests:      1
 Failed requests:        0
 Total transferred:      259 bytes
 HTML transferred:       61 bytes
-Requests per second:    2.04 [#/sec] (mean)
-Time per request:       489.155 [ms] (mean)
-Time per request:       489.155 [ms] (mean, across all concurrent requests)
-Transfer rate:          0.52 [Kbytes/sec] received
+Requests per second:    1.94 [#/sec] (mean)
+Time per request:       515.606 [ms] (mean)
+Time per request:       515.606 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.49 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:      243  243   0.0    243     243
-Processing:   246  246   0.0    246     246
-Waiting:      246  246   0.0    246     246
-Total:        489  489   0.0    489     489
+Connect:      253  253   0.0    253     253
+Processing:   262  262   0.0    262     262
+Waiting:      261  261   0.0    261     261
+Total:        516  516   0.0    516     516
 This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
@@ -75,22 +75,22 @@ Document Path:          /fib
 Document Length:        61 bytes
 
 Concurrency Level:      1
-Time taken for tests:   0.452 seconds
+Time taken for tests:   0.504 seconds
 Complete requests:      1
 Failed requests:        0
 Total transferred:      259 bytes
 HTML transferred:       61 bytes
-Requests per second:    2.21 [#/sec] (mean)
-Time per request:       452.011 [ms] (mean)
-Time per request:       452.011 [ms] (mean, across all concurrent requests)
-Transfer rate:          0.56 [Kbytes/sec] received
+Requests per second:    1.98 [#/sec] (mean)
+Time per request:       503.999 [ms] (mean)
+Time per request:       503.999 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.50 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:      224  224   0.0    224     224
-Processing:   228  228   0.0    228     228
-Waiting:      228  228   0.0    228     228
-Total:        452  452   0.0    452     452
+Connect:      248  248   0.0    248     248
+Processing:   256  256   0.0    256     256
+Waiting:      256  256   0.0    256     256
+Total:        504  504   0.0    504     504
 This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
@@ -106,115 +106,114 @@ Document Path:          /fib
 Document Length:        61 bytes
 
 Concurrency Level:      10
-Time taken for tests:   25.459 seconds
+Time taken for tests:   24.865 seconds
 Complete requests:      100
 Failed requests:        0
 Total transferred:      25900 bytes
 HTML transferred:       6100 bytes
-Requests per second:    3.93 [#/sec] (mean)
-Time per request:       2545.856 [ms] (mean)
-Time per request:       254.586 [ms] (mean, across all concurrent requests)
-Transfer rate:          0.99 [Kbytes/sec] received
-
-Connection Times (ms)
-              min  mean[+/-sd] median   max
-Connect:      218  249 100.4    237    1237
-Processing:   261 2127 464.7   2160    3343
-Waiting:      231 1229 662.2   1202    2873
-Total:        504 2376 471.6   2401    3571
-
-Percentage of the requests served within a certain time (ms)
-  50%   2401
-  66%   2417
-  75%   2423
-  80%   2429
-  90%   2451
-  95%   3343
-  98%   3361
-  99%   3571
- 100%   3571 (longest request)
-This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
-Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
-Licensed to The Apache Software Foundation, http://www.apache.org/
-
-Benchmarking fargate-benchmark-alb-ov3-110705629.us-east-1.elb.amazonaws.com (be patient).....done
-
-
-Server Software:        Werkzeug/3.1.3
-Server Hostname:        fargate-benchmark-alb-ov3-110705629.us-east-1.elb.amazonaws.com
-Server Port:            5000
-
-Document Path:          /fib
-Document Length:        61 bytes
-
-Concurrency Level:      10
-Time taken for tests:   25.428 seconds
-Complete requests:      100
-Failed requests:        1
-   (Connect: 0, Receive: 0, Length: 1, Exceptions: 0)
-Total transferred:      25903 bytes
-HTML transferred:       6103 bytes
-Requests per second:    3.93 [#/sec] (mean)
-Time per request:       2542.844 [ms] (mean)
-Time per request:       254.284 [ms] (mean, across all concurrent requests)
-Transfer rate:          0.99 [Kbytes/sec] received
-
-Connection Times (ms)
-              min  mean[+/-sd] median   max
-Connect:      219  249 101.5    239    1251
-Processing:   250 2141 496.9   2152    3162
-Waiting:      239 1361 624.5   1426    3160
-Total:        486 2390 506.7   2392    3400
-
-Percentage of the requests served within a certain time (ms)
-  50%   2392
-  66%   2407
-  75%   2426
-  80%   2432
-  90%   3353
-  95%   3379
-  98%   3399
-  99%   3400
- 100%   3400 (longest request)
-This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
-Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
-Licensed to The Apache Software Foundation, http://www.apache.org/
-
-Benchmarking fargate-benchmark-alb-ov3-110705629.us-east-1.elb.amazonaws.com (be patient).....done
-
-
-Server Software:        Werkzeug/3.1.3
-Server Hostname:        fargate-benchmark-alb-ov3-110705629.us-east-1.elb.amazonaws.com
-Server Port:            5000
-
-Document Path:          /fib
-Document Length:        61 bytes
-
-Concurrency Level:      10
-Time taken for tests:   24.738 seconds
-Complete requests:      100
-Failed requests:        0
-Total transferred:      25900 bytes
-HTML transferred:       6100 bytes
-Requests per second:    4.04 [#/sec] (mean)
-Time per request:       2473.827 [ms] (mean)
-Time per request:       247.383 [ms] (mean, across all concurrent requests)
+Requests per second:    4.02 [#/sec] (mean)
+Time per request:       2486.528 [ms] (mean)
+Time per request:       248.653 [ms] (mean, across all concurrent requests)
 Transfer rate:          1.02 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:      221  242  10.5    242     283
-Processing:   241 2078 386.9   2177    2420
-Waiting:      236 1221 608.2   1206    2212
-Total:        479 2321 387.4   2420    2653
+Connect:      219  243  12.6    241     286
+Processing:   244 2090 389.1   2180    2457
+Waiting:      236 1222 623.4   1220    2274
+Total:        477 2333 389.2   2425    2697
 
 Percentage of the requests served within a certain time (ms)
-  50%   2420
-  66%   2432
-  75%   2448
-  80%   2457
-  90%   2465
-  95%   2476
-  98%   2499
-  99%   2653
- 100%   2653 (longest request)
+  50%   2425
+  66%   2450
+  75%   2458
+  80%   2466
+  90%   2504
+  95%   2526
+  98%   2532
+  99%   2697
+ 100%   2697 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov3-110705629.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov3-110705629.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   25.598 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      25900 bytes
+HTML transferred:       6100 bytes
+Requests per second:    3.91 [#/sec] (mean)
+Time per request:       2559.819 [ms] (mean)
+Time per request:       255.982 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.99 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      227  251  21.8    244     338
+Processing:   256 2155 427.5   2191    2667
+Waiting:      232 1603 567.7   1698    2646
+Total:        500 2406 433.7   2433    2944
+
+Percentage of the requests served within a certain time (ms)
+  50%   2433
+  66%   2494
+  75%   2568
+  80%   2635
+  90%   2801
+  95%   2898
+  98%   2936
+  99%   2944
+ 100%   2944 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking fargate-benchmark-alb-ov3-110705629.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        fargate-benchmark-alb-ov3-110705629.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   25.127 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      25900 bytes
+HTML transferred:       6100 bytes
+Requests per second:    3.98 [#/sec] (mean)
+Time per request:       2512.684 [ms] (mean)
+Time per request:       251.268 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.01 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      220  246  15.8    242     338
+Processing:   246 2113 400.5   2184    2438
+Waiting:      245 1654 500.1   1714    2380
+Total:        492 2359 402.5   2421    2698
+
+Percentage of the requests served within a certain time (ms)
+  50%   2421
+  66%   2464
+  75%   2498
+  80%   2553
+  90%   2615
+  95%   2647
+  98%   2675
+  99%   2698
+ 100%   2698 (longest request)
